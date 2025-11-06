@@ -1,29 +1,29 @@
 import { ExternalLink } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
-import watchesImage from '@assets/generated_images/Watches_store_thumbnail_e72f9414.png';
-import abayaImage from '@assets/generated_images/Abaya_fashion_store_thumbnail_7761b0dc.png';
-import shoesImage from '@assets/generated_images/Shoes_store_thumbnail_06ddf194.png';
-import menswearImage from '@assets/generated_images/Menswear_store_thumbnail_bd0f3c6c.png';
-import bridalImage from '@assets/generated_images/Bridal_store_thumbnail_c0cebbfb.png';
-import fashionImage from '@assets/generated_images/Fashion_store_thumbnail_0e39267c.png';
-import electronicsImage from '@assets/generated_images/Electronics_store_thumbnail_45847afd.png';
-import giftsImage from '@assets/generated_images/Gifts_store_thumbnail_d02c6e93.png';
-import handmadeImage from '@assets/generated_images/Handmade_clothing_store_thumbnail_9a2ec2d4.png';
-import lingerieImage from '@assets/generated_images/Luxury_lingerie_store_display_3a6e7245.png';
-import handbagImage from '@assets/generated_images/Designer_handbag_store_display_d778e946.png';
-import sunglassesImage from '@assets/generated_images/Sunglasses_boutique_display_aeff64a5.png';
-import jewelryImage from '@assets/generated_images/Fine_jewelry_store_display_de65cf5c.png';
-import perfumeImage from '@assets/generated_images/Luxury_perfume_store_display_ce85ab76.png';
-import beautyImage from '@assets/generated_images/Beauty_products_store_display_7bbbc5e7.png';
-import toysImage from '@assets/generated_images/Kids_toys_store_display_0eb62a0e.png';
-import homedecorImage from '@assets/generated_images/Home_decor_store_display_5ca862ac.png';
-import fitnessImage from '@assets/generated_images/Fitness_gear_store_display_d0ca602e.png';
-import coffeeImage from '@assets/generated_images/Gourmet_coffee_store_display_da0fd8fe.png';
-import mensshoesImage from '@assets/generated_images/Mens_formal_shoes_display_668b06c4.png';
-import womensImage from '@assets/generated_images/Womens_boutique_clothing_display_daca52f7.png';
-import nightwearImage from '@assets/generated_images/Luxury_nightwear_store_display_43828ba3.png';
-import nightwear2Image from '@assets/generated_images/Tech_accessories_store_display_b31d4a92.png';
-import aabirahImage from '@assets/generated_images/WhatsApp Image 2025-11-05 at 4.57.39 PM.jpeg';
+import watchesImage from '@/assets/Watches_store_thumbnail_e72f9414-B75RELgB.png';
+import abayaImage from '@/assets/Abaya_fashion_store_thumbnail_7761b0dc-BvXVkWeh.png';
+import shoesImage from '@/assets/Shoes_store_thumbnail_06ddf194-CVZ9Oaoz.png';
+import menswearImage from '@/assets/Menswear_store_thumbnail_bd0f3c6c-hBT6Wt6N.png';
+import bridalImage from '@/assets/Bridal_store_thumbnail_c0cebbfb-DBw7QC5V.png';
+import fashionImage from '@/assets/Fashion_store_thumbnail_0e39267c-D3isVDOx.png';
+import electronicsImage from '@/assets/Electronics_store_thumbnail_45847afd-DC5yjfun.png';
+import giftsImage from '@/assets/Gifts_store_thumbnail_d02c6e93-DJ2oBWkg.png';
+import handmadeImage from '@/assets/Handmade_clothing_store_thumbnail_9a2ec2d4-D6U4LPEl.png';
+import lingerieImage from '@/assets/Luxury_lingerie_store_display_3a6e7245-Bh5qMvpQ.png';
+import handbagImage from '@/assets/Designer_handbag_store_display_d778e946-Dezip_Nh.png';
+import sunglassesImage from '@/assets/Sunglasses_boutique_display_aeff64a5-u3ElEmOs.png';
+import jewelryImage from '@/assets/Fine_jewelry_store_display_de65cf5c-ClsuLqAa.png';
+import perfumeImage from '@/assets/Luxury_perfume_store_display_ce85ab76-QFGiNb8N.png';
+import beautyImage from '@/assets/Beauty_products_store_display_7bbbc5e7-Bc7v0j38.png';
+import toysImage from '@/assets/Kids_toys_store_display_0eb62a0e-BlM6vsz_.png';
+import homedecorImage from '@/assets/Home_decor_store_display_5ca862ac-c-GtrXnE.png';
+import fitnessImage from '@/assets/Fitness_gear_store_display_d0ca602e-u7r_IrpY.png';
+import coffeeImage from '@/assets/Gourmet_coffee_store_display_da0fd8fe-CkylykEA.png';
+import mensshoesImage from '@/assets/Mens_formal_shoes_display_668b06c4-CFOzRRLM.png';
+import womensImage from '@/assets/Womens_boutique_clothing_display_daca52f7-f5ERR9ZZ.png';
+import nightwearImage from '@/assets/Luxury_nightwear_store_display_43828ba3-Bt5dpIXs.png';
+import techImage from '@/assets/Tech_accessories_store_display_b31d4a92-VS9Yfiue.png';
+import aabirahImage from '@/assets/WhatsApp Image 2025-11-05 at 4.57.39 PM-uqWHheLF.jpeg';
 
 interface StoreCardProps {
   name: string;
@@ -57,8 +57,39 @@ const imageMap: Record<string, string> = {
   mensshoes: mensshoesImage,
   womens: womensImage,
   nightwear: nightwearImage,
-  nightwear2: nightwear2Image,
+  nightwear2: techImage,
   aabirah: aabirahImage,
+  // Additional mappings for missing image types
+  Watches: watchesImage,
+  Abaya: abayaImage,
+  Shoes: shoesImage,
+  Menswear: menswearImage,
+  Bridal: bridalImage,
+  Fashion: fashionImage,
+  Electronics: electronicsImage,
+  Gifts: giftsImage,
+  Handmade: handmadeImage,
+  Lingerie: lingerieImage,
+  Handbag: handbagImage,
+  Sunglasses: sunglassesImage,
+  Jewelry: jewelryImage,
+  Perfume: perfumeImage,
+  Beauty: beautyImage,
+  Toys: toysImage,
+  Homedecor: homedecorImage,
+  Fitness: fitnessImage,
+  Coffee: coffeeImage,
+  Mensshoes: mensshoesImage,
+  Womens: womensImage,
+  Nightwear: nightwearImage,
+  Nighties: techImage,
+  // Fallback mappings
+  'Leak Proof UnderGarments': fitnessImage,
+  'Women Clothing': womensImage,
+  'Abaya & Co-ords': abayaImage,
+  'Lingerie & Panties': lingerieImage,
+  'Lingerie & Bras': lingerieImage,
+  'Lingerie/Nighties': nightwearImage,
 };
 
 const gradientOverlays = [
@@ -69,7 +100,7 @@ const gradientOverlays = [
   'from-accent/50 via-primary/20 to-accent/30',
   'from-primary/50 via-accent/20 to-primary/30',
   'from-transparent via-accent/40 to-primary/30',
-  'from-transparent via-primary/40 to-accent/30',
+  'from-transparent via-primary/40 to-accent/40',
 ];
 
 export default function StoreCard({ name, url, category, imageType, delay = 0, index }: StoreCardProps) {
